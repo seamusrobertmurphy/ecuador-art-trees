@@ -87,9 +87,9 @@ This reversal necessitates compensatory and monitoring actions to ensure complia
 
 ### Guidance on Buffer Pool Adjustments
 
-Effective application of the buffer contribution assessment tool is critical to ensure accurate determination of contributions required to address non-permanence risks. According to Section 3.3 and 3.11 of the Validation and Verification Standard [@artTREESValidationVerification2020], auditors are tasked with evaluating the correct application of this tool and the accuracy of its outcomes. Additionally, any reversals identified must be incorporated into emissions reduction calculations, with required adjustments made in subsequent reporting periods until fully resolved.
+Under Sections 3.3 and 3.11 of the Validation and Verification Standard [@artTREESValidationVerification2020], auditors are required to evaluate calculations related to buffer pool contribution adjustments in response to a reversal. Any identified reversals must also be accurately reflected in emissions reduction calculations, with appropriate adjustments carried over to subsequent reporting periods until all issues are fully resolved.
 
-The TREES Standards V2.0 establishes a baseline buffer pool contribution rate of 25% of credits issued for jurisdictional projects. This fixed rate is designed to provide a robust buffer to address non-permanence risks, ensuring the permanence of emission reductions. Adjustments to this rate, including increases for reversals or reductions for mitigating factors, must reflect the jurisdiction’s risk profile and comply with TREES requirements.
+The TREES Standards V2.0 establish a baseline buffer pool contribution rate of 25% for credits issued in jurisdictional projects. This fixed rate serves as a safeguard against non-permanence risks, ensuring the durability of emission reductions. However, this rate can be adjusted to account for specific circumstances, such as mandatory increases following reversals or reductions based on demonstrated mitigating factors. These adjustments must align with the jurisdiction’s risk profile and adhere to the requirements outlined in the TREES Standards.
 
 **Mandatory Increase in Buffer Pool Contribution:**\
 To address the 2020 reversal in Ecuador, the following actions are necessary:
