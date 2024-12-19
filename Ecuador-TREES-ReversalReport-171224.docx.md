@@ -1,0 +1,178 @@
+---
+title: "ART TREES Emissions Reversal Report"
+date: "2024-12-17"
+subtitle: > 
+ Credit period review, buffer pool adjustments & management atrategies following reversal event in Ecuador’s ART TREES Program
+format: 
+  docx:
+    toc: true
+    toc-depth: 5
+    number-sections: true
+    highlight-style: github
+df-print: kable
+keep-md: true
+prefer-html: true
+bibliography: references.bib
+---
+
+
+
+
+## Introduction
+
+This report addresses the 2020 emissions reversal within Ecuador’s REDD+ program under the Architecture for REDD+ Transactions (ART) TREES Standard Version 2.0 [@artREDDEnvironmentalExcellence2021]. It outlines the required compensatory actions, the documented 2020 reversal event, strategies for credit management, and recommendations for upcoming validation audits.
+
+Under Section 7.1 of the TREES Standard V2.0, reversals are defined as emissions exceeding the established baseline during the crediting period, which must be compensated by the deduction of credits verified from other years within the same crediting period (Section 7.1.3). In addition, a reassessment of non-permanence risks may result in an increase in the buffer pool contribution rate for future crediting periods​ (Section 7.1.2).
+
+Given the material impact of the 2020 reversal, verifiers are expected to apply heightened scrutiny during the upcoming validation and verification processes, particularly focusing on the monitoring plan, accuracy of carbon estimates and methodology used, and deforestation mitigation measures. To ensure that Ecuador’s TMR and TRD submissions align with ART requirements, secure validation, and minimize the financial implications of reversal compensation, this report offers targeted recommendations and to strengthen compliance and program resilience.
+
+## Scope of Report
+
+This report reviews the TREES Monitoring Report and TREES Registry Document (Table 1) submitted by the Ecuador REDD+ Program under the Architecture for REDD+ Transactions (ART) TREES Standard V2.0. This project is led by the National Government of Ecuador, represented by the Ministry of Environment, Water, and Ecological Transition (MAATE). The program's first crediting period spanned from January 1, 2017, to December 31, 2021, with a historical reference period from January 1, 2012, to December 31, 2016. Key partners include the Ministry of Agriculture and Livestock, EUROCLIMA+, and the Environmental Defense Fund (EDF).
+
+**Analysis of the 2020 Emissions Reversal**
+
+-   Review reversal loss calculations to confirm compliance regarding crediting levels and emissions reductions.
+-   Assess the impact of the reversal on future crediting periods, including its effect on credit availability and buffer pool contributions.
+-   Provide recommendations for managing the reversal, including appropriate credit deductions and mitigation strategies to prevent similar events in future periods.
+
+**Guidance on Buffer Pool Adjustments & Credit Allocations**
+
+-   Develop strategies to address buffer pool contributions post-reversal, including reassessment of non-permanence risks in alignment with TREES Section 7.1.3.
+-   Provide technical advice on credit allocation strategies.
+-   Ensure transparent documentation of credit adjustments, with robust justifications, for inclusion in the next TREES Monitoring Report (TMR).
+
+**Designs for Mitigating Risks of Future Reversals**
+
+-   Conduct review of Ecuador’s National Forest Monitoring System (NFMS) and MRV processes to confirm alignment with TREES requirements, including components of:
+    -   QA/QC protocols for Activity Data (AD) and Emission Factors (EF).
+    -   Ensuring EF confidence intervals meet TREES standards.
+-   Recommend remote sensing technologies and early-warning systems to detect deforestation.
+-   Recommend targeted scaling of deforestation mitigation programs, including through community-based forest management initiatives, reforestation and restoration projects, and integration of economic incentives for sustainable agricultural practices to reduce forest pressures.
+
+**Technical Preparedness for Upcoming Validation Audit**
+
+-   Build capacity through training and technical support to prepare for heightened scrutiny during validation and verification audits, including recommendations for:
+    -   Responding effectively to Validation and Verification Body (VVB) findings.
+    -   Ensuring consistency and compliance across reporting periods and submissions.
+
+| **Key Information**                                                | **Details**                                                                                       |
+|------------------------------|------------------------------------------|
+| Program Name                                                       | Ecuador's REDD+ Program under the Architecture for REDD+ Transactions (ART) TREES Standard        |
+| Crediting Period                                                   | January 1, 2017 to December 31, 2021                                                              |
+| Reference Period                                                   | January 1, 2012 to December 31, 2016                                                              |
+| Lead Participant                                                   | National Government of Ecuador; Ministry of Environment, Water, and Ecological Transition (MAATE) |
+| Project Partners                                                   | Ministry of Agriculture and Livestock, EUROCLIMA+, Environmental Defense Fund (EDF)               |
+| Key References                                                     |                                                                                                   |
+| **Title**                                                          | **Filename**                                                                                      |
+| TREES Standard, V2.0                                               | TREES-2.0-August-2021-Clean.pdf                                                                   |
+| (TMR) Ecuador TREES Monitoring Report, July 2024                   | Ecuador_TREES-Monitoring-Report-FINAL-Julio 2024_english.pdf                                      |
+| (TRD) Ecuador TREES Registration Document, July 2024               | Ecuador_TREES-Registration-Document-FINAL-Julio 2024_english.pdf                                  |
+| UK Technical Assistance Program for LEAF: TA Programme for Ecuador | 6.Ecuador_MRV_ToR.docx                                                                            |
+
+: Table 1: Key information project information and documents reviewed in the scope of this report.
+
+## **Findings**
+
+### Analysis of the 2020 Reversal
+
+Under TREES Section 7.1, reversals occur when annual emissions exceed the established baseline average during the crediting period, requiring compensation through credit deductions from the same period. In addition, as per ART guidance, quantification of emissions reversals must be estimated per calendar year and cannot be aggreated across years [@artClarificationRegardingReversal].
+
+In 2020, Ecuador's reported emissions (81,756,832.52 tCO₂-e) exceeded the baseline emissions (69,394,984.52 tCO₂-e) by 12,361,848 tCO₂-e, constituting a significant reversal​​.
+
+$$
+\begin{gather}
+ \text{Reversal Loss} = \text{2020 Emissions} - \text{Baseline Annual Emmissions} \\ 
+ \text{Reversal Loss} = 81,756,832.52 - 69,394,984.52 = 12,361,848 \text{ }t\mathrm{CO}_2^e
+\end{gather}
+$$
+
+This reversal necessitates compensatory and monitoring actions to ensure compliance with TREES requirements in upcoming validation audits.
+
+### Guidance on Buffer Pool Adjustments
+
+The TREES Standards V2.0 establishes a baseline buffer pool contribution rate of 25% of credits issued for jurisdictional projects. This fixed rate is designed to provide a robust buffer to address non-permanence risks, ensuring the permanence of emission reductions. However, this rate may be adjusted upward or downward based on specific risk factors and mitigation efforts. Adjustments reflect a jurisdiction's risk profile and actions to mitigate reversal risks while maintaining alignment with TREES requirements.
+
+To address the 2020 reversal in Ecuador, the following actions are necessary:
+
+**Mandatory Increase in Buffer Pool Contribution:**\
+As stipulated in TREES Section 7.1.3, the 2020 reversal triggers a mandatory 5% increase in Ecuador's buffer pool contribution for five years. This increase is essential to compensate for the elevated non-permanence risks associated with the reversal. During this period, the adjusted buffer rate will apply to all annual credit issuances to ensure the buffer pool remains sufficient.
+
+**Mitigating Factors for Buffer Rate Adjustment:**\
+TREES Section 7.1.1 allows jurisdictions to lower their baseline buffer contribution rate if specific mitigating factors are demonstrated. Based on Ecuador's activities documented in its TREES Registration Document (TRD) and Monitoring Report (TRM), the program may qualify for a 5% reduction (Mitigating Factor 3), aligning with Cancun Safeguard F. Key mitigation actions include:
+
+-   National Forest Monitoring System (NFMS): Tracks emissions, monitors leakage, and supports data-driven mitigation strategies.
+-   Criminal Code Enforcement: Provisions to address environmental crimes such as land invasion and illegal logging.
+-   Results-Based Payment Initiatives: Programs like the REM Ecuador initiative and GCF-supported activities promote sustainable land use and reversal risk mitigation.
+-   Financial and Institutional Capacity Building: Measures like the Environmental and Social Risk Analysis System (SARAS) integrate reversal mitigation into financial strategies and support sustainable land use practices.
+
+Additionally, Ecuador's climate and forest policies listed on page 163 of the submitted TMR, further support mitigation efforts. These include its First Nationally Determined Contribution (2020–2025), National Climate Change Strategy (2012–2025), and REDD+ Action Plan (2016–2025). Given these activities, Ecuador's buffer contribution rate could be reduced from 25% to 20% (25% baseline minus 5% for Mitigating Factor 3, TREES Standards V2.0: 42).
+
+**Addressing Deficits in Buffer Contributions:**\
+If the credits retired to compensate for the 2020 reversal exceed Ecuador’s cumulative buffer contributions, the shortfall must be replenished. This can be achieved by:
+
+-   Allocating future credits to the buffer pool until the deficit is resolved.
+-   Ensuring transparent documentation in the next TREES Monitoring Report to demonstrate compliance with Section 7.1.3.
+
+### Guidance on Credit Allocation
+
+To minimize the financial impact of the 2020 reversal and maximize the value of Ecuador’s remaining credits, the following credit allocation strategies are recommended:
+
+**Prioritize Older, Lower-Value Vintages for Reversal Compensation:**\
+Use credits issued in 2017 and 2018 to offset the reversal. These older vintages typically hold lower market value due to depreciation over time and are ideal for compliance purposes.
+
+**Preserve Recent, Higher-Value Credits for Future Transactions:**\
+Retain credits from 2019 and 2021, which are likely to command higher prices in voluntary and compliance carbon markets. Preserving these credits positions Ecuador to maximize revenue from future transactions and maintain flexibility in managing carbon assets.
+
+**Ensure Transparent Documentation:**\
+Provide clear and detailed records of all credit adjustments in the next TREES Monitoring Report, including:
+
+-   The volume of credits retired and the vintages used.
+-   Justifications for the prioritization of certain vintages.
+-   Evidence of buffer pool replenishment, if applicable.
+
+The SIGMA platform should be leveraged to provide transparent documentation of credit adjustments, including prioritization of vintages and buffer replenishment. Future TREES Monitoring Reports must include detailed records from SIGMA to ensure compliance with Section 7.1.3 and demonstrate traceable credit allocation strategies.
+
+### Designs for Mitigating Risk of Future Reversals
+
+As referenced in the TMR and TRD, key drivers of deforestation in the country include the following:
+
+-   Agricultural expansion: Expansion of agricultural land in small-scale properties (10 - 100ha, ) occuring from increased slash-and-burn practices and conversion to pasture, banana and African palm production. This is particularly noted in the Coastal Region where tradition of similar land-use decisions have contributed to deforestation, and increasingly in Amazonian Region (TMR, p.14; TRD p.17, p.76; Sierra et al 2021: 11)
+
+-   Forest management: Selective logging and resource extraction for fuelwood and timber contributing to deforestation in the Andean region [@book].
+
+-   Population pressures: Urban to rural migration has exacerbated land-use change in Andean forests.
+
+-   Limited Enforcement: Conservation and forest management policies were less enforceable during external shocks, particularly due to the COVID-19 pandemic.
+
+Future auditors will likely assess the effectiveness of the project's monitoring plan to detect deforestation caused by these specific activities and to inform more targeted enforcement activities. This will include review of the National Forest Monitoring System (NFMS), which is reportedly instrumental in tracking reversal risks. As per requirements in Section 4.1 of the TREES Standards V2.0, auditors may request confirmation of accuracy estimates and sample distribution in each land cover class. Reccomendations are proposed in the following section to augment current methodological reporting (@sec-3_5).
+
+During subsequent validation, verifiers will likely examine the project's proposed interventions to address land tenure and territorial pressures, as reported in the TRD regarding Cancun Safeguard B (p.38), and Cancun Safdeguard D (p.61). It may be necessary to verify that reported measures, such as SIGTIERRAS, effectively support the permanence of emission reductions by mitigating and recording tenure-related conflicts.
+
+### Technical Preparedness for Validation Audit {#sec-3_5}
+
+Monitoring Plan:\
+According to Section 6.1 of the TREES Standards V2.0, participants must deliver a monitoring plan that documents the parameters monitored, the frequency and methods of data collection and quality control checks implemented, and the responsible parties maintaining these systems. On page 68 of the TMR, a link is provided to the project's EarthEngine runtime.[^1] However, the repository shows to be currently empty or access has been restricted. This will likely trigger auditor findings of major non-conformance.
+
+[^1]: <https://code.earthengine.google.com/?accept_repo=users/snmb_ecuador/mosaicos_ASTER_ec>
+
+As per Section 4.1.1 of the TREES Standards, further information may be requested regarding accuracy estimates and distribution of training samples used in land cover classifications. Adding to current section on land cover classification methods in the TMR (p.68), it is recommended to include confusion matrix results for the "natural forest" classification along with aerial imagery of transitional zones between areas of forest and expanding cropland and selective logging. In addition, verifiers may examine where sample distribution is disproportional to strata areas (TMR Table 20 & 22, p.113).
+
+QA/QC Protocols:\
+Section 4.1 requires jurisdictions to apply IPCC Tier 2 or Tier 3 approaches for AD and EF, ensuring accurate and transparent emissions reporting.
+
+Secion 4.1.1 of the TREES Standards V2.0 also mandates the reporting of field sampling protocols, standard operating procedures (SOPs), and quality assurance/quality control procedures​​ used. Therefore, validation auditors may review any SOP documents on mensuration techniques used to train or guide enumerators in the field. It is recommended to add further information or links to these materials on page 136 of the TMR.
+
+Grievance & Redress Mechanisms:\
+Ecuador's existing grievance mechanisms, such as the MAATE Grievance Mechanism under the Socio Bosque Program (PSB), have recorded and resolved approximately 1,800 cases, addressing issues such as land registration, prohibited activities, and partner withdrawals. This demonstrates a robust foundation for conflict resolution. Incorporating these mechanisms into the audit framework will provide evidence of proactive measures to mitigate risks associated with deforestation and land-use conflicts. Additionally, the pilot REDD+ Grievance and Redress mechanism, launched in 2022, should be evaluated for its ability to address emerging challenges and align with Cancun Safeguard C.
+
+Stakeholder Engagement:\
+To strengthen compliance with Cancun Safeguard D, TMR and TRD submissions must prioritize transparent and inclusive stakeholder participation in designing and implementing reversal mitigation strategies. The REDD+ Roundtable's working groups, established through Ministerial Resolution No. 49 of MAATE, provide vital platforms for multi-stakeholder dialogue (TRD, p.40). Future audits may evaluate whether these participatory platforms align with the National Consultation Guide for REDD+ and adequately record, incorporate and address concerns from local stakeholders.
+
+In addition, the integration of ancestral knowledge into Ecuador's NFMS, such as the use of traditional practices documented in community monitoring guides, should be reviewed for its contribution to enhancing detection and mitigation of deforestation risks. Ensuring that these contributions are documented and monitored will align Ecuador's efforts with the requirements of the Cancun Safeguard C (TRD, p.41)
+
+Capacity Developement:\
+Future audits may evaluate how capacity-building initiatives, such as the REDD+ Roundtable’s training programs and PROAmazonía’s capacity-strengthening events (TRD, p.44), contribute to improving monitoring and verification systems. These efforts should be institutionalized to address gaps in technical preparedness.
+
+Enforcement:\
+Ecuador’s System of National Protected Areas (SNAP) and the Regulation of the COA (TMR, p. 65) are recognized as foundational frameworks for promoting sustainable forest management and biodiversity conservation. Future audits are expected to evaluate how REDD+ initiatives have integrated these frameworks into their mitigation strategies, focusing on the implementation and effectiveness of SNAP’s conservation strategies, the application of RCOA’s management principles, and the enforcement of Article 247 of the Comprehensive Criminal Organic Code. This article establishes mechanisms to address illegal activities such as deforestation and wildlife trafficking. These evaluations will assess the alignment and effectiveness of enforcement measures within the broader context of Ecuador’s commitment to sustainable environmental practices.
