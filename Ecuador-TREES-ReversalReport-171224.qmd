@@ -2,13 +2,14 @@
 title: "ART TREES Emissions Reversal Report"
 date: "2024-12-17"
 subtitle: > 
- Credit period review, buffer pool adjustments & management atrategies following reversal event in Ecuador’s ART TREES Program
+ Credit period review, buffer pool adjustments & management satrategies following reversal event in Ecuador’s ART TREES Program
 format: 
-  html:
-    toc: true
+  docx:
+    toc: false
     toc-depth: 5
     number-sections: true
     highlight-style: github
+    theme: [minimal]
 df-print: kable
 keep-md: true
 prefer-html: true
@@ -52,21 +53,21 @@ This report reviews the TREES Monitoring Report and TREES Registry Document (Tab
     -   Responding effectively to Validation and Verification Body (VVB) findings.
     -   Ensuring consistency and compliance across reporting periods and submissions.
 
-| **Key Information**                                                | **Details**                                                                                       |
+| **Key Information** | **Details** |
 |------------------------------|------------------------------------------|
-| Program Name                                                       | Ecuador's REDD+ Program under the Architecture for REDD+ Transactions (ART) TREES Standard        |
-| Crediting Period                                                   | January 1, 2017 to December 31, 2021                                                              |
-| Reference Period                                                   | January 1, 2012 to December 31, 2016                                                              |
-| Lead Participant                                                   | National Government of Ecuador; Ministry of Environment, Water, and Ecological Transition (MAATE) |
-| Project Partners                                                   | Ministry of Agriculture and Livestock, EUROCLIMA+, Environmental Defense Fund (EDF)               |
-| Key References                                                     |                                                                                                   |
-| **Title**                                                          | **Filename**                                                                                      |
-| TREES Standard, V2.0                                               | TREES-2.0-August-2021-Clean.pdf                                                                   |
-| (TMR) Ecuador TREES Monitoring Report, July 2024                   | Ecuador_TREES-Monitoring-Report-FINAL-Julio 2024_english.pdf                                      |
-| (TRD) Ecuador TREES Registration Document, July 2024               | Ecuador_TREES-Registration-Document-FINAL-Julio 2024_english.pdf                                  |
-| UK Technical Assistance Program for LEAF: TA Programme for Ecuador | 6.Ecuador_MRV_ToR.docx                                                                            |
+| Program Name | Ecuador's REDD+ Program under the Architecture for REDD+ Transactions (ART) TREES Standard |
+| Crediting Period | January 1, 2017 to December 31, 2021 |
+| Reference Period | January 1, 2012 to December 31, 2016 |
+| Lead Participant | National Government of Ecuador; Ministry of Environment, Water, and Ecological Transition (MAATE) |
+| Project Partners | Ministry of Agriculture and Livestock, EUROCLIMA+, Environmental Defense Fund (EDF) |
+| Key References |  |
+| **Title** | **Filename** |
+| TREES Standard, V2.0 | TREES-2.0-August-2021-Clean.pdf |
+| (TMR) Ecuador TREES Monitoring Report, July 2024 | Ecuador_TREES-Monitoring-Report-FINAL-Julio 2024_english.pdf |
+| (TRD) Ecuador TREES Registration Document, July 2024 | Ecuador_TREES-Registration-Document-FINAL-Julio 2024_english.pdf |
+| UK Technical Assistance Program for LEAF: TA Programme for Ecuador | 6.Ecuador_MRV_ToR.docx |
 
-: Table 1: Key information project information and documents reviewed in the scope of this report.
+: Table 1: Project documents reviewed in the scope of this report.
 
 ## **Findings**
 
@@ -78,8 +79,8 @@ In 2020, Ecuador's reported emissions (81,756,832.52 tCO₂-e) exceeded the base
 
 $$
 \begin{gather}
- \text{Reversal Loss} = \text{2020 Emissions} - \text{Baseline Annual Emmissions} \\ 
- \text{Reversal Loss} = 81,756,832.52 - 69,394,984.52 = 12,361,848 \text{ }t\mathrm{CO}_2^e
+ \text{Reversal Loss} = \text{2020 Emissions} - \text{Baseline Annual Emissions} \\[2mm]
+ \text{Reversal Loss} = 81,756,832.52 - 69,394,984.52 = 12,361,848 \text{ } t\mathrm{CO}_2^e
 \end{gather}
 $$
 

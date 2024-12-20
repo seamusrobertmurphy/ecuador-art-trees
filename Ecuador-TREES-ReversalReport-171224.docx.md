@@ -5,10 +5,11 @@ subtitle: >
  Credit period review, buffer pool adjustments & management atrategies following reversal event in Ecuador’s ART TREES Program
 format: 
   docx:
-    toc: true
+    toc: false
     toc-depth: 5
     number-sections: true
     highlight-style: github
+    theme: [minimal]
 df-print: kable
 keep-md: true
 prefer-html: true
@@ -20,7 +21,7 @@ bibliography: references.bib
 
 ## Introduction
 
-This report addresses the 2020 emissions reversal within Ecuador’s REDD+ program under the Architecture for REDD+ Transactions (ART) TREES Standard Version 2.0 [@artREDDEnvironmentalExcellence2021]. It outlines the required compensatory actions, the documented 2020 reversal event, strategies for credit management, and recommendations for upcoming validation audits.
+This report addresses the 2020 emissions reversal within Ecuador’s REDD+ program under the Architecture for REDD+ Transactions (ART) TREES Standard Version 2.0 [@artREDDEnvironmentalExcellence2021]. It outlines the required compensatory actions, the documented 2020 reversal event, strategies for credit management, and recommendations for upcoming validation audits [@artClarificationRegardingReversal2024].
 
 Under Section 7.1 of the TREES Standard V2.0, reversals are defined as emissions exceeding the established baseline during the crediting period, which must be compensated by the deduction of credits verified from other years within the same crediting period (Section 7.1.3). In addition, a reassessment of non-permanence risks may result in an increase in the buffer pool contribution rate for future crediting periods​ (Section 7.1.2).
 
@@ -33,96 +34,99 @@ This report reviews the TREES Monitoring Report and TREES Registry Document (Tab
 **Analysis of the 2020 Emissions Reversal**
 
 -   Review reversal loss calculations to confirm compliance regarding crediting levels and emissions reductions.
--   Assess the impact of the reversal on future crediting periods, including its effect on credit availability and buffer pool contributions.
+-   Assess the impact of the reversal on future crediting periods, including its effect on credit availability and buffer pool contributions. ~~**(XXX)**~~
 -   Provide recommendations for managing the reversal, including appropriate credit deductions and mitigation strategies to prevent similar events in future periods.
 
 **Guidance on Buffer Pool Adjustments & Credit Allocations**
 
 -   Develop strategies to address buffer pool contributions post-reversal, including reassessment of non-permanence risks in alignment with TREES Section 7.1.3.
 -   Provide technical advice on credit allocation strategies.
--   Ensure transparent documentation of credit adjustments, with robust justifications, for inclusion in the next TREES Monitoring Report (TMR).
+-   Ensure transparent documentation of credit adjustments, with robust justifications, for inclusion in the next TREES Monitoring Report (TMR). ~~**(XXX)**~~
 
 **Designs for Mitigating Risks of Future Reversals**
 
 -   Conduct review of Ecuador’s National Forest Monitoring System (NFMS) and MRV processes to confirm alignment with TREES requirements, including components of:
     -   QA/QC protocols for Activity Data (AD) and Emission Factors (EF).
-    -   Ensuring EF confidence intervals meet TREES standards.
+    -   Ensuring EF confidence intervals meet TREES standards. ~~**(XXX)**~~
 -   Recommend remote sensing technologies and early-warning systems to detect deforestation.
--   Recommend targeted scaling of deforestation mitigation programs, including through community-based forest management initiatives, reforestation and restoration projects, and integration of economic incentives for sustainable agricultural practices to reduce forest pressures.
 
-**Technical Preparedness for Upcoming Validation Audit**
+**Preparation for Upcoming Validation Audit**
 
--   Build capacity through training and technical support to prepare for heightened scrutiny during validation and verification audits, including recommendations for:
+-   Provide technical support to prepare for heightened scrutiny during future validation and verification audits, including recommendations for:
     -   Responding effectively to Validation and Verification Body (VVB) findings.
     -   Ensuring consistency and compliance across reporting periods and submissions.
 
-| **Key Information**                                                | **Details**                                                                                       |
+| **Key Information** | **Details** |
 |------------------------------|------------------------------------------|
-| Program Name                                                       | Ecuador's REDD+ Program under the Architecture for REDD+ Transactions (ART) TREES Standard        |
-| Crediting Period                                                   | January 1, 2017 to December 31, 2021                                                              |
-| Reference Period                                                   | January 1, 2012 to December 31, 2016                                                              |
-| Lead Participant                                                   | National Government of Ecuador; Ministry of Environment, Water, and Ecological Transition (MAATE) |
-| Project Partners                                                   | Ministry of Agriculture and Livestock, EUROCLIMA+, Environmental Defense Fund (EDF)               |
-| Key References                                                     |                                                                                                   |
-| **Title**                                                          | **Filename**                                                                                      |
-| TREES Standard, V2.0                                               | TREES-2.0-August-2021-Clean.pdf                                                                   |
-| (TMR) Ecuador TREES Monitoring Report, July 2024                   | Ecuador_TREES-Monitoring-Report-FINAL-Julio 2024_english.pdf                                      |
-| (TRD) Ecuador TREES Registration Document, July 2024               | Ecuador_TREES-Registration-Document-FINAL-Julio 2024_english.pdf                                  |
-| UK Technical Assistance Program for LEAF: TA Programme for Ecuador | 6.Ecuador_MRV_ToR.docx                                                                            |
+| Program Name | Ecuador's REDD+ Program under the Architecture for REDD+ Transactions (ART) TREES Standard |
+| Crediting Period | January 1, 2017 to December 31, 2021 |
+| Reference Period | January 1, 2012 to December 31, 2016 |
+| Lead Participant | National Government of Ecuador; Ministry of Environment, Water, and Ecological Transition (MAATE) |
+| Project Partners | Ministry of Agriculture and Livestock, EUROCLIMA+, Environmental Defense Fund (EDF) |
+| Key References |  |
+| **Title** | **Filename** |
+| TREES Standard, V2.0 | TREES-2.0-August-2021-Clean.pdf |
+| (TMR) Ecuador TREES Monitoring Report, July 2024 | Ecuador_TREES-Monitoring-Report-FINAL-Julio 2024_english.pdf |
+| (TRD) Ecuador TREES Registration Document, July 2024 | Ecuador_TREES-Registration-Document-FINAL-Julio 2024_english.pdf |
+| UK Technical Assistance Program for LEAF: TA Programme for Ecuador | 6.Ecuador_MRV_ToR.docx |
 
-: Table 1: Key information project information and documents reviewed in the scope of this report.
+: Table 1: Project documents reviewed in the scope of this report.
 
 ## **Findings**
 
 ### Analysis of the 2020 Reversal
 
-Under TREES Section 7.1, reversals occur when annual emissions exceed the established baseline average during the crediting period, requiring compensation through credit deductions from the same period. In addition, as per ART guidance, quantification of emissions reversals must be estimated per calendar year and cannot be aggreated across years [@artClarificationRegardingReversal].
+Under TREES Section 7.1, reversals occur when annual emissions exceed the established baseline average during the crediting period, requiring compensation through credit deductions from the same period. In addition, as per ART guidance, quantification of emission reversals must be calulcated annually and cannot be aggreated across years [@artClarificationRegardingReversal2024].
 
 In 2020, Ecuador's reported emissions (81,756,832.52 tCO₂-e) exceeded the baseline emissions (69,394,984.52 tCO₂-e) by 12,361,848 tCO₂-e, constituting a significant reversal​​.
 
 $$
 \begin{gather}
- \text{Reversal Loss} = \text{2020 Emissions} - \text{Baseline Annual Emmissions} \\ 
- \text{Reversal Loss} = 81,756,832.52 - 69,394,984.52 = 12,361,848 \text{ }t\mathrm{CO}_2^e
+ \text{Reversal Loss} = \text{2020 Emissions} - \text{Baseline Annual Emissions} \\[2mm]
+ \text{Reversal Loss} = 81,756,832.52 - 69,394,984.52 = 12,361,848 \text{ } t\mathrm{CO}_2^e
 \end{gather}
 $$
 
-This reversal necessitates compensatory and monitoring actions to ensure compliance with TREES requirements in upcoming validation audits.
+This reversal necessitates compensatory and monitoring actions to ensure compliance with TREES requirements in upcoming validation audits. This includes mandatory credit deductions and adjustments to buffer pool contributions discussed below.
 
 ### Guidance on Buffer Pool Adjustments
 
-The TREES Standards V2.0 establishes a baseline buffer pool contribution rate of 25% of credits issued for jurisdictional projects. This fixed rate is designed to provide a robust buffer to address non-permanence risks, ensuring the permanence of emission reductions. However, this rate may be adjusted upward or downward based on specific risk factors and mitigation efforts. Adjustments reflect a jurisdiction's risk profile and actions to mitigate reversal risks while maintaining alignment with TREES requirements.
+Under Sections 3.3 and 3.11 of the Validation and Verification Standard [@artTREESValidationVerification2020], auditors are required to evaluate calculations related to buffer pool contribution adjustments in response to a reversal. Any identified reversals must also be accurately reflected in emissions reduction calculations, with appropriate adjustments carried over to subsequent reporting periods until all issues are fully resolved.
 
-To address the 2020 reversal in Ecuador, the following actions are necessary:
+The TREES Standards V2.0 establish a baseline buffer pool contribution rate of 25% for credits issued in jurisdictional projects. This fixed rate serves as a safeguard against non-permanence risks, ensuring the durability of emission reductions. However, this rate can be adjusted to account for specific circumstances, such as mandatory increases following reversals or reductions based on demonstrated mitigating factors. These adjustments must align with the jurisdiction’s risk profile and adhere to the requirements outlined in the TREES Standards.
 
 **Mandatory Increase in Buffer Pool Contribution:**\
-As stipulated in TREES Section 7.1.3, the 2020 reversal triggers a mandatory 5% increase in Ecuador's buffer pool contribution for five years. This increase is essential to compensate for the elevated non-permanence risks associated with the reversal. During this period, the adjusted buffer rate will apply to all annual credit issuances to ensure the buffer pool remains sufficient.
+To address the 2020 reversal in Ecuador, the following actions are necessary:
 
-**Mitigating Factors for Buffer Rate Adjustment:**\
-TREES Section 7.1.1 allows jurisdictions to lower their baseline buffer contribution rate if specific mitigating factors are demonstrated. Based on Ecuador's activities documented in its TREES Registration Document (TRD) and Monitoring Report (TRM), the program may qualify for a 5% reduction (Mitigating Factor 3), aligning with Cancun Safeguard F. Key mitigation actions include:
+-   **Baseline Contributions Pre-Reversal (2017–2019):** Contributions must be maintained at the 25% baseline, as mitigating factors cannot be applied retroactively when a known reversal has occurred.
+-   **Post-Reversal Contributions (2021–2025):** Following the 2020 reversal, a mandatory 5% increase applies for five years, resulting in a total buffer pool contribution rate of 30% during this period. Mitigating factors cannot be applied in the five years post-reversal, allowing time for substantive changes to be documented and verified as successful.
+-   **Deficit Management:** If credits retired to compensate for the 2020 reversal exceed cumulative buffer contributions, the shortfall must be resolved by:
+    -   Allocating future credits to the buffer pool until the deficit is replenished.
+    -   Ensuring transparent documentation in subsequent TREES Monitoring Reports to demonstrate compliance with Section 7.1.3.
+-   **Addressing Deficits in Buffer Contributions:** If the credits retired to compensate for the 2020 reversal exceed Ecuador’s cumulative buffer contributions, this deficit must be replenished. This can be achieved by:
+    -   Allocating future credits to the buffer pool until the deficit is resolved.
+
+    -   Ensuring transparent documentation in the next TREES Monitoring Report to demonstrate compliance with Section 7.1.3.
+
+**Mitigating Factors for Buffer Rate Adjustment**\
+While mitigating factors cannot be applied for periods pre-2020 or post-reversal (2021–2025), they remain relevant for future periods when sufficient time has elapsed, and changes are verified. Mitigating actions that could qualify include:
 
 -   National Forest Monitoring System (NFMS): Tracks emissions, monitors leakage, and supports data-driven mitigation strategies.
 -   Criminal Code Enforcement: Provisions to address environmental crimes such as land invasion and illegal logging.
 -   Results-Based Payment Initiatives: Programs like the REM Ecuador initiative and GCF-supported activities promote sustainable land use and reversal risk mitigation.
 -   Financial and Institutional Capacity Building: Measures like the Environmental and Social Risk Analysis System (SARAS) integrate reversal mitigation into financial strategies and support sustainable land use practices.
 
-Additionally, Ecuador's climate and forest policies listed on page 163 of the submitted TMR, further support mitigation efforts. These include its First Nationally Determined Contribution (2020–2025), National Climate Change Strategy (2012–2025), and REDD+ Action Plan (2016–2025). Given these activities, Ecuador's buffer contribution rate could be reduced from 25% to 20% (25% baseline minus 5% for Mitigating Factor 3, TREES Standards V2.0: 42).
-
-**Addressing Deficits in Buffer Contributions:**\
-If the credits retired to compensate for the 2020 reversal exceed Ecuador’s cumulative buffer contributions, the shortfall must be replenished. This can be achieved by:
-
--   Allocating future credits to the buffer pool until the deficit is resolved.
--   Ensuring transparent documentation in the next TREES Monitoring Report to demonstrate compliance with Section 7.1.3.
+Additionally, Ecuador’s climate and forest policies, including the First Nationally Determined Contribution (2020–2025), National Climate Change Strategy (2012–2025), and REDD+ Action Plan (2016–2025), further support mitigation efforts. These may qualify Ecuador for a buffer contribution reduction from 25% to 20% in future periods if documented and verified under TREES Section 7.1.1.
 
 ### Guidance on Credit Allocation
 
-To minimize the financial impact of the 2020 reversal and maximize the value of Ecuador’s remaining credits, the following credit allocation strategies are recommended:
+To minimize the financial impact of the 2020 reversal and maximize the value of Ecuador’s remaining credits, the following strategies are recommended:
 
 **Prioritize Older, Lower-Value Vintages for Reversal Compensation:**\
 Use credits issued in 2017 and 2018 to offset the reversal. These older vintages typically hold lower market value due to depreciation over time and are ideal for compliance purposes.
 
 **Preserve Recent, Higher-Value Credits for Future Transactions:**\
-Retain credits from 2019 and 2021, which are likely to command higher prices in voluntary and compliance carbon markets. Preserving these credits positions Ecuador to maximize revenue from future transactions and maintain flexibility in managing carbon assets.
+Retain credits from 2019 and 2021, which are likely to command higher prices in voluntary and compliance carbon markets. This approach maximizes revenue potential and ensures flexibility in managing carbon assets.
 
 **Ensure Transparent Documentation:**\
 Provide clear and detailed records of all credit adjustments in the next TREES Monitoring Report, including:
@@ -149,7 +153,7 @@ Future auditors will likely assess the effectiveness of the project's monitoring
 
 During subsequent validation, verifiers will likely examine the project's proposed interventions to address land tenure and territorial pressures, as reported in the TRD regarding Cancun Safeguard B (p.38), and Cancun Safdeguard D (p.61). It may be necessary to verify that reported measures, such as SIGTIERRAS, effectively support the permanence of emission reductions by mitigating and recording tenure-related conflicts.
 
-### Technical Preparedness for Validation Audit {#sec-3_5}
+### Preparation for Validation Audit {#sec-3_5}
 
 Monitoring Plan:\
 According to Section 6.1 of the TREES Standards V2.0, participants must deliver a monitoring plan that documents the parameters monitored, the frequency and methods of data collection and quality control checks implemented, and the responsible parties maintaining these systems. On page 68 of the TMR, a link is provided to the project's EarthEngine runtime.[^1] However, the repository shows to be currently empty or access has been restricted. This will likely trigger auditor findings of major non-conformance.
