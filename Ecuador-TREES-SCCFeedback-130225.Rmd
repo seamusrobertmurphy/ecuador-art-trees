@@ -1,0 +1,108 @@
+---
+title: "ART-TREES Submissions: Ecuador's TRD & TMR Data Checks"
+author: "Winrock Intl"
+date: "2025-02-13"
+output: html_document
+---
+
+```{r, echo=F, message=F, warning=F, error=F, comment=NA}
+readRenviron("~/.Renviron")
+#readRenviron("~/.Rprofile")
+#{bash}: "source  ~/.zshrc"
+
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
+#libs = c(
+#  "basemaps", "c2z", "cpp11", "cpp11armadillo", "cpp11eigen", "cols4all", 
+#  "earthdatalogin", "elevatr", "geodata", "ggmap", "htmltools", "janitor", 
+#  "jsonlite", "kableExtra", "knitr", "latex2exp", "leaflet", 
+#  "leaflet.providers", "lwgeom", "magrittr", "maptiles", "MASS", 
+#  "methods", "osmdata", "pander", "psych", "raster", 
+#  "rasterVis", "RColorBrewer", "Rcpp", "Rcpp11", "raster", "readxl", 
+#  "rmarkdown", "rnaturalearth", "rnaturalearthdata", "RStoolbox", 
+#  "s2", "sf", "sits", "sp",
+#  "stars", "stringr", "terra", "terrainr", "tibble", "tidyr", "tidyverse", 
+#  "tinytex", "tmap", "tmaptools", "torch", "units"
+#  )
+
+#remotes::install_github("r-spatial/sf", configure.args = c(
+#  "--with-gdal-config=/opt/local/bin/gdal-config", 
+#  "--with-proj-include=/opt/local/lib/proj9/include", 
+#  "--with-proj-lib=/opt/local/lib/proj9/lib", 
+#  "--with-geos-config=/opt/local/bin/geos-config"))
+
+#install.packages('terra', type="source", configure.args = c(
+#  "--with-gdal-config=/opt/local/bin/gdal-config", 
+#  "--with-proj-include=/opt/local/lib/proj9/include", 
+#  "--with-proj-lib=/opt/local/lib/proj9/lib", 
+#  "--with-geos-config=/opt/local/bin/geos-config")
+#  )
+
+#installed_libs = libs %in% rownames(installed.packages())
+#if(any(installed_libs==F)){install.packages(libs[!installed_libs],repos="https://cloud.r-project.org")}
+#invisible(lapply(libs, library, character.only = T))
+#lapply(libs, require, character.only = T)
+library(caret)
+library(dplyr)
+library(ModelMetrics)
+#library(ForestTools)
+library(e1071)
+library(knitr)
+library(latex2exp)
+library(leaflet)
+library(MASS)
+library(Rcpp)
+library(randomForest)
+library(rmarkdown)
+library(sf)
+library(sp)
+library(terra)
+library(tinytex)
+library(raster)
+
+base::options(htmltools.dir.version = F, htmltools.preserve.raw = F)
+
+knitr::opts_chunk$set(
+  echo    = TRUE, 
+  message = FALSE, 
+  warning = FALSE,
+  error   = FALSE, 
+  comment = NA,
+  tidy.opts = list(width.cutoff = 120)
+  ) 
+
+sf::sf_use_s2(use_s2 = FALSE) # non-spherical geometries
+#renv::restore() # reload packages if someone previously ran 'renv::init()' 
+#renv::init() # save new package list after editing script 
+```
+
+```{css, echo=FALSE, class.source = 'foldable'}
+#TOC::before {
+  content: "";
+  display: block;
+  height: 80px;
+  width: 210px;
+  background-image: url(https://winrock.org/wp-content/uploads/2021/12/Winrock-logo-R.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  padding-top: 80px !important;
+  background-repeat: no-repeat;
+  }
+```
+
+```{r, message=F, warning=F, error=F, comment=NA}
+aoi = sf::read_sf("/Users/seamus/Documents/TREES-Active/Ecuador/PRELEAF_4FEB2025/4. Análisis de datos /Shapefiles/Estratos_Potenciales_Bosque_V2020_SinNB.shp")
+
+tmap::tmap_mode("view")
+tmap::tm_shape(aoi) + 
+  tmap::tm_borders(col="red") + 
+  tmap::tm_basemap("Esri.WorldImagery")
+
+
+aoi$area_m2 = round(as.numeric(sf::st_area(aoi) * 0.0001, 4))
+aoi = aoi |>
+  sf::st_drop_geometry() |>
+  janitor::adorn_totals() 
+aoi
+```
+

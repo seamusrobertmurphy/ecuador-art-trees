@@ -54,7 +54,7 @@ This report reviews the TREES Monitoring Report and TREES Registry Document (Tab
     -   Ensuring consistency and compliance across reporting periods and submissions.
 
 | **Key Information** | **Details** |
-|------------------------------|------------------------------------------|
+|----|----|
 | Program Name | Ecuador's REDD+ Program under the Architecture for REDD+ Transactions (ART) TREES Standard |
 | Crediting Period | January 1, 2017 to December 31, 2021 |
 | Reference Period | January 1, 2012 to December 31, 2016 |
